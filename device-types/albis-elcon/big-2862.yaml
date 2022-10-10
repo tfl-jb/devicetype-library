@@ -1,0 +1,58 @@
+---
+manufacturer: albis-elcon
+model: BIG 2862 AC
+slug: big-2862-ac
+part_number: 900489
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: Console
+    label: LCT
+    type: rj-45
+  - name: E-OAM
+    label: T3/T4
+    type: rj-45
+power-ports:
+  - name: PS1
+    type: iec-60320-c14
+interfaces:
+  - name: eth0
+    label: WAN2S
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: eth1
+    label: WAN1S
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: eth2
+    label: LAN2
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth3
+    label: LAN1
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth4
+    label: LAN2S
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: eth5
+    label: LAN1S
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: eth6
+    label: LAN4S
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: eth7
+    label: LAN3S
+    type: 1000base-x-sfp
+    mgmt_only: false
+  - name: eth8
+    label: LAN4
+    type: 1000base-t
+    mgmt_only: false
+  - name: eth9
+    label: LAN3
+    type: 1000base-t
+    mgmt_only: false
