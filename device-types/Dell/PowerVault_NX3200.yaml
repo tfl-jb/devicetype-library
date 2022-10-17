@@ -1,0 +1,41 @@
+---
+manufacturer: Dell
+model: PowerVault NX3200
+slug: dell_powervault_nx3200
+comments: | 
+Storage server with 12 x 3.5" bays for hard drives.
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+console-ports:
+  - name: Front USB
+    type: usb-a
+  - name: Front VGA
+    type: other
+  - name: Rear VGA
+    type: other
+  - name: Rear Serial
+    type: de-9
+  - name: Rear USB 1
+    type: usb-a
+  - name: Rear USB 2
+    type: usb-a
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+    maximum_draw: 750
+  - name: PSU 2
+    type: iec-60320-c14
+    maximum_draw: 750
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
+  - name: Gig-E 2
+    type: 1000base-t
+  - name: Gig-E 3
+    type: 1000base-t
+  - name: Gig-E 4
+    type: 1000base-t
+  - name: iDRAC7
+    type: 1000base-t
+    mgmt_only: true
