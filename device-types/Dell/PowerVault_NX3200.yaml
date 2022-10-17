@@ -2,8 +2,6 @@
 manufacturer: Dell
 model: PowerVault NX3200
 slug: dell_powervault_nx3200
-comments: | 
-Storage server with 12 x 3.5" bays for hard drives.
 u_height: 2
 is_full_depth: true
 subdevice_role: parent
